@@ -6,17 +6,17 @@ A suite of Adobe Illustrator ExtendScript (`.jsx`) utilities designed to merge f
 
 ## 🚀 Overview of Included Scripts
 
-### 1. `MergeText_Smart_Batch_Isolated.jsx` *(Recommended)*
+### 1. `MergeText_Batch.jsx` *(Recommended)*
 * **Rotation-Aware Clustering:** Uses transformation matrix analysis to prevent rotated Y-axis labels (~90°) from merging with horizontal tick marks or titles (0°).
 * **Numeric Tick Protection:** Automatically isolates standalone numerical values (e.g., `0`, `10`, `20`) so axis tick numbers are never accidentally merged into word labels.
 * **Auto-Orientation:** Automatically detects whether a text cluster is horizontal (sorts Left to Right) or vertical (sorts Bottom to Top).
 * **Batch Processing:** Safe to execute across entire subpanel figures without lumping unrelated text chunks together.
 
-### 2. `MergeText_Silent.jsx`
+### 2. `MergeText_Hor.jsx`
 * **Horizontal One-Line Merge:** Sorts selected text frames strictly Left to Right based on their physical X-axis position (`left`) on the artboard, ignoring layer stacking order.
 * **Zero Delimiter:** Concatenates contents directly without adding extra spaces or newline breaks (`\r`).
 
-### 3. `MergeText_Vertical_BottomToTop.jsx`
+### 3. `MergeText_Vert.jsx`
 * **Vertical Column Merge:** Groups selected text frames into vertical columns and sorts items from Bottom to Top based on geometric Y-bounds.
 
 ### 4. `MergeText_AI.jsx`
