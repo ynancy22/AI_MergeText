@@ -45,9 +45,9 @@ If you have the `Figure.aia` file:
 2. Click the panel menu icon (top-right corner) and select **Load Actions...**.
 3. Choose `Figure.aia` to import the pre-configured shortcuts.
 4. Shortcut-key pre-sets:
-  - F9: Merge horizontal
-  - F10: Merge vertical
-  - F11: Merge sorted in batch
+    - F9: Merge horizontal
+    - F10: Merge vertical
+    - F11: Merge sorted in batch
 
 ---
 
